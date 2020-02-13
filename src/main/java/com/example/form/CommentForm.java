@@ -2,8 +2,11 @@ package com.example.form;
 
 public class CommentForm {
 	
+	/**記事ID*/
 	private String articleId;
+	/**投稿者名*/
 	private String name;
+	/**投稿内容*/
 	private String content;
 	
 	@Override
